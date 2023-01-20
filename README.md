@@ -1,4 +1,4 @@
-# SignedIn: A simple login website using React and Pocketbase
+# SignedIn: A login website using React and Pocketbase
 
 ## Features
 
