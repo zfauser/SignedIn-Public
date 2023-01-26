@@ -38,7 +38,7 @@ npm install
     npm start
     ```
     
-    In another. run:
+    In another terminal window, run:
     
   
     ```bash
@@ -60,7 +60,7 @@ npm install
 
     Then deploy pocketbase to another server. (You might be able to run it on the same server as the web server through something like a reverse proxy, but I haven't tested it.)
 
-    Then run the following command to start pocketbase via http & https
+    Then run the following command to start pocketbase via http & https. (you should setup something to make it so this command runs at startup using something like systemd)
 
     ```bash
     ./pocketbase serve --http="example.com:80" --https="example.com:443"
