@@ -30,6 +30,7 @@ npm install
 
 3. Run the app
     &nbsp;
+    
     3.1. Development mode
   
     In one terminal window, run:
