@@ -72,7 +72,7 @@ npm install
 
 ## How I deployed it
 
-I deployed the static files to an existing [apache](https://httpd.apache.org/) server I use to run all my other websites. I also needed to get a new SSL certificate for the domain I was using ([signedin.zachfauser.com](https://signedin.zachfauser.com/)). I used [Certbot](https://certbot.eff.org/) to get the certificate. I then needed to create a new Oracle Cloud Virtual Machine to run database. I used the same specs as the apache server (2 core arm cpu, 12gb ram, ubuntu). I then installed pocketbase on the new server. I also got a new SSL certificate for the pocketbase server on the domain I was using. I then created a simple Systemd service to make the pocketbase server start on startup and run in the background.
+I deployed the static files to an existing [apache](https://httpd.apache.org/) server I use to run all my other websites. I also needed to get a new SSL certificate for the domain I was using. I used [Certbot](https://certbot.eff.org/) to get the certificate. I then needed to create a new Oracle Cloud Virtual Machine to run database. I used the same specs as the apache server (2 core arm cpu, 12gb ram, ubuntu). I then installed pocketbase on the new server. I also got a new SSL certificate for the pocketbase server on the domain I was using. I then created a simple Systemd service to make the pocketbase server start on startup and run in the background.
 
 ## Links to the technologies used
 
